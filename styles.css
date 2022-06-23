@@ -22,57 +22,9 @@ h2{
     float: right;
     width: 28px;
     height: 28px;
-    /*vertical-align: middle;
+    vertical-align: middle;
     color: black;
-    margin-right: 10px;*/
-}
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  background-color: #5F9EA0;
-  background-color: #5F9EA0;
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 21px;
-  background-color: #5F9EA0;
-  color: black;
-  display: block;
-  transition: 0.3s;
-}
-.overlay a:hover, .overlay a:focus {
-  color: #FFB739;
-}
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 30px;
-}
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+    margin-right: 10px;
 }
 .intro{
     line-height: 42px;
@@ -164,7 +116,12 @@ h2{
     color: black;
     font-size: 3em;
     margin: 48px 3px 0 3px;
-
+}
+.project-name-2{
+    font-weight: 600;
+    color: black;
+    font-size: 40px;
+    margin: 48px 3px 0 3px;
 }
 .view-button{
     padding: 10px 14px;
