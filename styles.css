@@ -5,6 +5,7 @@ body{
     background-color: #5F9EA0;
     font-family: 'Open Sans', sans-serif;
 font-family: 'Outfit', sans-serif;
+    border: 5px solid black;
 }
 .nav-bar{
     background-color: hsl(182%, 65%, 50%);
