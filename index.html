@@ -4,15 +4,35 @@
 <head>
     <title>JS Playground</title>
     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="nav-bar">
-        <h2>Oyarekhua Sandra</h2>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a class="overlay-link-1" href="#home">Home</a>
+                <a class="overlay-link" href="#about">About</a>
+                <a class="overlay-link" href="#projects">Projects Completed</a>
+                <a class="overlay-link" href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <span>
+            <span class="h2">
+                Oyarekhua Sandra
+            </span>
+            <svg onclick="openNav()" class="menu-svg" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={4}><path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </span><br>
+        </div>
     </div>
 
 
-    <div class="intro">
+
+    <div class="intro" id="home">
         <p class="greeting">
             Hello, I'm
         </p>
@@ -26,7 +46,7 @@
     <p class="intro-about">
         Web Developer
     </p>
-    <img class="img1" src="Snapchat-122807719.jpg">
+    <img class="img1" src="/storage/emulated/0/DCIM/Snapchat/Snapchat-122807719.jpg">
 
     <div class="about" id="about">
         <p class="about-header">
@@ -47,7 +67,7 @@
             My Previous Projects
         </p>
 
-        <div onmouseover="firstFunc()" id="project-box">
+        <div class="project-box" onmouseover="firstFunc()" id="project-box">
             <p class="project-name">
                 A JS Calculator
             </p>
@@ -66,7 +86,7 @@
         </div>
 
         <div onmouseover="thirdFunc()" id="project-box-3">
-            <p class="project-name-2">
+            <p class="project-name">
                 Responsive Website
             </p>
             <a href="https://sandee004.github.io/Responsive-Web-1/">
@@ -108,13 +128,52 @@
             </svg></a>
 
             <a href=""><svg class="svg-link"width="24px" height="24px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#555" fill-rule="evenodd" d="M18.8961111,0 L1.10388889,0 C0.494166667,0 0,0.494166667 0,1.10388889 L0,18.8963889 C0,19.5058333 0.494166667,20 1.10388889,20 L10.6825,20 L10.6825,12.255 L8.07611111,12.255 L8.07611111,9.23666667 L10.6825,9.23666667 L10.6825,7.01055556 C10.6825,4.42722222 12.2602778,3.02083333 14.5647222,3.02083333 C15.6686111,3.02083333 16.6172222,3.10277778 16.8938889,3.13972222 L16.8938889,5.83944444 L15.2955556,5.84027778 C14.0422222,5.84027778 13.7997222,6.43583333 13.7997222,7.30972222 L13.7997222,9.23694444 L16.7886111,9.23694444 L16.3994444,12.2552778 L13.7997222,12.2552778 L13.7997222,20 L18.8963889,20 C19.5058333,20 20,19.5058333 20,18.8961111 L20,1.10388889 C20,0.494166667 19.5058333,0 18.8961111,0 L18.8961111,0 Z" />
-            </svg></a>
+                <path fill="#555" fill-rule="evenodd" d="M18.8961111,0 L1.10388889,0 C0.494166667,0 0,0.494166667 0,1.10388889 L0,18.8963889 C0,19.5058333 0.494166667,20 1.10388889,20 L10.6825,20 L10.6825,12.255 L8.07611111,12.255 L8.07611111,9.23666667 L10.6825,9.23666667 L10.6825,7.01055556 C10.6825,4.42722222 12.2602778,3.02083333 14.5647222,3.02083333 C15.6686111,3.02083333 16.6172222,3.10277778 16.8938889,3.13972222 L16.8938889,5.83944444 L15.2955556,5.84027778 C14.0422222,5.84027778 13.7997222,6.43583333 13.7997222,7.30972222 L13.7997222,9.23694444 L16.7886111,9.23694444 L16.3994444,12.2552778 L13.7997222,12.2552778 L13.7997222,20 L18.8963889,20 C19.5058333,20 20,19.5058333 20,18.8961111 L20,1.10388889 C20,0.494166667 19.5058333,0 18.8961111,0 L18.8961111,0 Z" /></svg>
+            </a>
         </div>
     </div>
-    
+
 
     <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+
+
+
+        document.getElementById("#project-box").addEventListener('mouseenter', entering);
+        document.getElementById("project-box").addEventListener('mouseleave', leaving);
+        function entering(ev) {
+            ev.currentTarget.style.backgroundColor = 'orangered'
+        }
+        function leaving(ev) {
+            ev.currentTarget.style.backgroundColor = '#5F9EA0'
+        }
+
+
+        document.getElementById("project-box-2").addEventListener('mouseenter', enter);
+        document.getElementById("project-box").addEventListener('mouseleave', leave);
+        function enter(lev) {
+            lev.currentTarget.style.backgroundColor = 'orangered'
+        }
+        function leave(lev) {
+            lev.currentTarget.style.backgroundColor = '#5F9EA0'
+        }
+
+
+        document.getElementById("project-box-3").addEventListener('mouseenter', entering);
+        document.getElementById("project-box").addEventListener('mouseleave', leaving);
+        function entering(ev) {
+            ev.currentTarget.style.backgroundColor = 'orangered'
+        }
+        function leaving(ev) {
+            ev.currentTarget.style.backgroundColor = '#5F9EA0'
+        }
+        /*
         function firstFunc() {
             document.getElementById("project-box").style.backgroundColor = "#FFB739";
             document.getElementById("project-link").style.backgroundColor = "#5F9EA0"
@@ -137,5 +196,6 @@
             document.getElementById("project-link-3").style.border = "2px solid #FFB739"
             document.getElementById("project-link-3").style.borderColor = "black"
         }
+    */
     </script>
 </body>
