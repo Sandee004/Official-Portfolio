@@ -4,7 +4,8 @@
 body{
     background-color: #5F9EA0;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Outfit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif
 }
 .nav-bar{
     background-color: hsl(182%, 65%, 50%);
@@ -116,7 +117,7 @@ body{
 }
 .about-info{
     font-size: 4em;
-    line-height: 65px;
+    line-height: 60px;
     margin: 0 25px 12px 25px;
 }
 .resume-button{
@@ -125,6 +126,7 @@ body{
     border: 2px solid #FFB739;
     font-weight: 400;
     font-size: 3.5em;
+    margin-bottom: 20px;
 }
 .resume-button:hover{
     background-color: #5F9EA0;
@@ -137,19 +139,21 @@ body{
 #projects{
     background-color: white;
     width: 100%;
-    height: 50%;
+    height: 70%;
     margin: auto;
     text-align: center;
 }
 #project-box, #project-box-2, #project-box-3{
     width: 75%;
-    height: 22%;
+    height: 20%;
     border: 1px solid black;
     margin: auto auto 40px auto;
     text-align: center;
     background-color: #5F9EA0;
-    border-radius: 12px;/*
-    transition: background-color 1.2s ease-out 100ms
+    border-radius: 12px;
+}
+#project-box-3{
+    margin-bottom: 50px;
 }
 .project-box:hover{
     background-color: #FFB739;*/
@@ -168,6 +172,7 @@ body{
     font-weight: 400;
     font-size: 3.5em;
     margin-top: 22px;
+    margin-bottom: 10px;
 }
 
 
@@ -183,7 +188,7 @@ body{
 }
 .top{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 4em;
     margin-bottom: 3px;
 }
 .detail{
