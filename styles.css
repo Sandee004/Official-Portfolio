@@ -2,11 +2,7 @@
     margin: 0;
 }
 body{
-    margin: auto;
     background-color: #5F9EA0;
-    width: 360px;
-    height: contain;
-    border: 0.5px solid black;
     font-family: 'Open Sans', sans-serif;
 font-family: 'Outfit', sans-serif;
 }
