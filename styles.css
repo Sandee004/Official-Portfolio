@@ -19,12 +19,12 @@ body{
     color: #FFB739;
     margin-top: 5px;
     margin-left: 10px;
-    font-size: 5em;
+    font-size: 4.3em;
 }
 .menu-svg{
     float: right;
-    width: 35px;
-    height: 35px;
+    width: 140px;
+    height: 140px;
     vertical-align: middle;
     color: black;
     margin-right: 10px;
@@ -50,7 +50,7 @@ body{
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 4em;
   background-color: #5F9EA0;
   color: black;
   display: block;
@@ -71,11 +71,11 @@ body{
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 40px;
+  font-size: 4em;
 }
 .intro{
     line-height: 42px;
-    font-size: 45px;
+    font-size: 4.5em;
     margin-left: 10px;
 }
 .greeting{
@@ -89,12 +89,12 @@ body{
 .intro-about{
     font-weight: 350;
     color: white;
-    font-size: 32px;
+    font-size: 4.5em;
     margin: 5px 10px 30px 10px;
 }
 .img1{
     width: 100%;
-    height: 70%;
+    height: 60%;
     margin-top: 25px;
 }
 
@@ -107,7 +107,7 @@ body{
     text-align: center;
 }
 .about-header, .projects-header, .contact-header{
-    font-size: 28px;
+    font-size: 4.3em;
     font-weight: 600;
     color: #5F9EA0;
     margin: 0px 0 20px 0;
@@ -115,7 +115,7 @@ body{
     padding-bottom: 10px;
 }
 .about-info{
-    font-size: 20px;
+    font-size: 4em;
     line-height: 25px;
     margin: 0 10px 12px 10px;
 }
@@ -124,7 +124,7 @@ body{
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 4em;
 }
 .resume-button:hover{
     background-color: #5F9EA0;
@@ -137,7 +137,7 @@ body{
 #projects{
     background-color: white;
     width: 100%;
-    height: 1200px;
+    height: 20%;
     margin: auto;
     text-align: center;
 }
@@ -157,7 +157,7 @@ body{
 .project-name{
     font-weight: 600;
     color: black;
-    font-size: 3em;
+    font-size: 4em;
     margin: 48px 3px 0 3px;
 
 }
@@ -166,7 +166,7 @@ body{
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 4em;
     margin-top: 22px;
 }
 
@@ -190,7 +190,7 @@ body{
     margin-bottom: 15px;
     font-family: Monospace;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 4em;
 }
 .svg-link{
     padding-right: 10px;
