@@ -149,12 +149,12 @@ cite{
 #projects{
     background-color: white;
     width: 100%;
-    height: 1200px;
+    height: 50%;
     margin: auto;
     text-align: center;
 }
 #project-box, #project-box-2, #project-box-3{
-    width: 75%;
+    width: 57%;
     height: 22.5%;
     border: 1px solid black;
     margin: auto auto 30px auto;
@@ -181,6 +181,9 @@ cite{
     font-size: 16px;
     margin-top: 22px;
 }
+.view-button:hover{
+    cursor: pointer;
+}
 
 
 .contact{
@@ -200,9 +203,8 @@ cite{
 }
 .detail{
     margin-bottom: 3px;
-    font-family: Monospace;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
 }
 .svg-link{
     padding-right: 10px;
@@ -210,4 +212,3 @@ cite{
 .svg-link:hover{
     cursor: pointer;
 }
-    /*#0066b2;
