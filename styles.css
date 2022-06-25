@@ -38,7 +38,6 @@ font-family: 'Outfit', sans-serif;
   left: 0;
   top: 0;
   background-color: #5F9EA0;
-  background-color: #5F9EA0;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -66,7 +65,7 @@ font-family: 'Outfit', sans-serif;
     margin-bottom: 5px;
 }
 .overlay a:hover, .overlay a:focus {
-  background-color: orangered;
+  background-color: #A0615F;
 }
 .overlay .closebtn {
   position: absolute;
@@ -135,8 +134,8 @@ cite{
     margin: 16px 0 30px 0;
 }
 .resume-button:hover{
-    background-color: #432608;
-    border: 2px solid #432608;
+    background-color: #A0615F;
+    border: 2px solid #A0615F;
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -154,8 +153,8 @@ cite{
     text-align: center;
 }
 #project-box, #project-box-2, #project-box-3{
-    width: 57%;
-    height: 22.5%;
+    width: 47%;
+    height: 22%;
     border: 1px solid black;
     margin: auto auto 30px auto;
     text-align: center;
