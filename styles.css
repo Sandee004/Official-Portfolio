@@ -193,7 +193,7 @@ cite{
     background-color: transparent;
     width: 100%;
     height: 300px;
-    margin: auto;
+    margin: 20px auto auto auto;
     text-align: center;
 }
 .contact-header{
