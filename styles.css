@@ -163,7 +163,7 @@ cite{
     transition: background-color 1.2s ease-out 100ms
 }
 .project-box:hover{
-    background-color: #FFB739;*/
+    background-color: #FFB739;
 }
 #project-box-3{
     margin-bottom: 50px;
@@ -173,7 +173,7 @@ cite{
     text-align: center;
     border-radius: 12px;
     background-color: #5F9EA0;
-    margin-bottom: 55px;
+    margin-bottom: 55px; */
 }
 .project-name{
     font-weight: 600;
