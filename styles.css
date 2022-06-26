@@ -166,16 +166,11 @@ cite{
 .project-box:hover{
     background-color: #FFB739;
 }*/
-.clear{
-    display: none;
-    color: white;
-}
 .project-name{
     font-weight: 600;
     color: black;
     font-size: 3em;
     margin: 48px 3px 0 3px;
-
 }
 .view-button{
     padding: 10px 14px;
@@ -188,6 +183,11 @@ cite{
 }
 .view-button:hover{
     cursor: pointer;
+}
+.clear{
+    display: none;
+    color: white;
+    font-size: 40px;
 }
 
 
