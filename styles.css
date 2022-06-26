@@ -152,7 +152,7 @@ cite{
     margin: auto;
     text-align: center;
 }
-#project-box, #project-box-2{
+#project-box, #project-box-2, #project-box-3{
     width: 45%;
     height: 25%;
     border: 1px solid black;
