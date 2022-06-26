@@ -98,8 +98,7 @@ body{
 .img1{
     width: 360px;
     height: 752px;
-    margin-top: 15px;
-    float: right;
+    margin: 15px 10px 0 40px
 }
 
 
