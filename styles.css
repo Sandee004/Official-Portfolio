@@ -50,7 +50,7 @@ body{
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 22px;
   background-color: #5F9EA0;
   color: black;
   display: block;
@@ -81,10 +81,12 @@ body{
 .greeting{
     font-weight: 400;
     color: #FFB739;
+    text-align: center;
 }
 .name{
     color: white;
     font-weight: 600;
+    display: inline;
 }
 .intro-about{
     font-weight: 350;
