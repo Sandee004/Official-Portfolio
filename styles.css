@@ -185,7 +185,7 @@ cite{
     cursor: pointer;
 }
 .clear{
-    display: none;
+    visibility: hidden;
     color: white;
     font-size: 40px;
 }
