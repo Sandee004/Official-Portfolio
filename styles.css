@@ -94,15 +94,12 @@ body{
     font-size: 20px;
     margin: 5px 0px 20px 0px;
     text-align: center;
-}/*
-.img1-frame{
-    text-align: center;
 }
 .img1{
     width: 300px;
     height: 500px;
     margin: 15px 20px 0 20px
-}*/
+}
 
 
 .about{
@@ -145,10 +142,6 @@ cite{
     cursor: pointer;
     transform: scale(1.2);
 }
-/*button a{
-    text-decoration: none;
-    color: black;
-}*/
 
 
 #projects{
@@ -166,12 +159,11 @@ cite{
     text-align: center;
     background-color: #5F9EA0;
     border-radius: 12px;
-}/*
-    transition: background-color 1.2s ease-out 100ms
+    transition: background-color 1.2s ease-out 100ms;
 }
 .project-box:hover{
-    background-color: #FFB739;
-}*/
+    background-color: #A0615F;
+}
 .project-name{
     font-weight: 600;
     color: black;
