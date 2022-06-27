@@ -97,8 +97,8 @@ body{
     text-align: center;
 }
 .img1{
-    width: 300px;
-    height: 500px;
+    width: 250px;
+    height: 450px;
     float: left;
     margin: auto 10px 10px auto;
 }
@@ -161,7 +161,6 @@ cite{
     text-align: center;
     background-color: #5F9EA0;
     border-radius: 12px;
-    display: inline;
     transition: background-color 0.4s ease-out;
 }
 #project-box:hover, #project-box-2:hover, #project-box-3:hover{
