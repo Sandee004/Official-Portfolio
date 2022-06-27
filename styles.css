@@ -7,6 +7,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Outfit', sans-serif;
 }
+#home{
+height: 200px;
+}
 .nav-bar{
     background-color: #395e60;
     border-bottom: .5px solid black;
