@@ -159,7 +159,7 @@ cite{
 #project-box, #project-box-2, #project-box-3, #project-box-4{
     width: 500px;
     height: 285px;
-    display: inline-block;
+    display: inline;
     margin: 0 3px 10px 3px;
     text-align: center;
     background-color: #5F9EA0;
@@ -206,10 +206,12 @@ cite{
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 3px;
+    color: white;
 }
 .detail{
     margin-bottom: 3px;
     font-weight: 300;
+    color: white;
     font-size: 20px;
 }
 .svg-link{
