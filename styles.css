@@ -157,8 +157,8 @@ cite{
     text-align: center;
 }
 #project-box, #project-box-2, #project-box-3, #project-box-4{
-    width: 150px;
-    height: 80px;
+    width: 350px;
+    height: 150px;
     display: inline-block;
     margin: 0 3px 10px 3px;
     text-align: center;
