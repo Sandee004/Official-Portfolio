@@ -95,6 +95,9 @@ body{
     margin: 5px 0px 20px 0px;
     text-align: center;
 }
+.img1-frame{
+    text-align: center;
+}
 .img1{
     width: 300px;
     height: 500px;
