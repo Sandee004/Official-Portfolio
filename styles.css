@@ -155,7 +155,7 @@ cite{
     height: 52%;
     margin: auto;
     text-align: center;
-}
+}/*
 #project-box, #project-box-2, #project-box-3, #project-box-4{
     width: 150px;
     height: 80px;
@@ -168,7 +168,7 @@ cite{
 }
 #project-box:hover, #project-box-2:hover, #project-box-3:hover, #project-box-4:hover{
     background-color: #A0615F;
-}
+}*/
 .project-name{
     font-weight: 600;
     color: black;
