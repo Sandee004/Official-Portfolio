@@ -161,7 +161,7 @@ cite{
     border-radius: 12px;
     transition: background-color 1.2s ease-out 1.5s;
 }
-.project-box:hover{
+#project-box:hover, #project-box-2:hover, #project-box-3:hover{
     background-color: #A0615F;
 }
 .project-name{
