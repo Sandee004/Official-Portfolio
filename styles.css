@@ -156,7 +156,7 @@ cite{
     margin: auto;
     text-align: center;
 }
-#project-box, #project-box-2, #project-box-3{
+#project-box, #project-box-2, #project-box-3, #project-box-4{
     width: 42%;
     height: 25%;
     border: 1px solid black;
@@ -167,7 +167,7 @@ cite{
     border-radius: 12px;
     transition: background-color 0.4s ease-out;
 }
-#project-box:hover, #project-box-2:hover, #project-box-3:hover{
+#project-box:hover, #project-box-2:hover, #project-box-3:hover, #project-box-4:hover{
     background-color: #A0615F;
 }
 .project-name{
