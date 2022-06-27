@@ -159,7 +159,7 @@ cite{
     text-align: center;
     background-color: #5F9EA0;
     border-radius: 12px;
-    transition: background-color 1.2s ease-out;
+    transition: background-color 0.4s ease-out;
 }
 #project-box:hover, #project-box-2:hover, #project-box-3:hover{
     background-color: #A0615F;
