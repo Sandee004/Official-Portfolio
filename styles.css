@@ -82,6 +82,7 @@ height: 500px;
     font-size: 2.6em;
     margin-left: 10px;
     text-align: center;
+    vertical-align: middle;
 }
 .greeting{
     font-weight: 400;
@@ -162,7 +163,7 @@ cite{
     display: inline-block;
     margin: 0 10px 12px 3px;
     text-align: center;
-    background-color: #395e60;
+    background-color: #5F9EA0;
     border-radius: 12px;
     transition: background-color 0.4s ease-out;
 }
