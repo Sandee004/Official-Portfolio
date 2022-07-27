@@ -271,7 +271,7 @@ font-family: 'Outfit', sans-serif;
 
     width: 100%;
 
-    height: 1200px;
+    height: contain;
 
     margin: auto;
 
@@ -279,7 +279,7 @@ font-family: 'Outfit', sans-serif;
 
 }
 
-#project-box, #project-box-2, #project-box-3{
+#project-box, #project-box-2, #project-box-3, #project-box-4, #project-box-5{
 
     width: 75%;
 
@@ -299,7 +299,7 @@ font-family: 'Outfit', sans-serif;
 
 }
 
-#project-box:hover, #project-box-2:hover, #project-box-3:hover{
+#project-box:hover, #project-box-2:hover, #project-box-3:hover, #project-box-4:hover, #project-box-5:hover{
 
     background-color: #A0615F;
 
