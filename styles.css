@@ -4,7 +4,7 @@
 
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1000px){
 
 body{
 
@@ -388,7 +388,7 @@ svg:hover{
 }
 }
 
-@media only screen and (min-width: 751px){
+@media only screen and (min-width: 1001px){
 
     body{
         margin: auto;
