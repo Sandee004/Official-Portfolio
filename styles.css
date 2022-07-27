@@ -291,6 +291,8 @@ font-family: 'Outfit', sans-serif;
 
     text-align: center;
 
+    display: block;
+
     background-color: #5F9EA0;
 
     border-radius: 12px;
