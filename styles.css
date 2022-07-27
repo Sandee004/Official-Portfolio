@@ -153,7 +153,7 @@ font-family: 'Outfit', sans-serif;
 }
 #project-box, #project-box-2, #project-box-3, #project-box-4, #project-box-5{
     width: 75%;
-    height: 120px;
+    height: 260px;
     border: 1px solid black;
     margin: auto auto 26px auto;
     text-align: center;
