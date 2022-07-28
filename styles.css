@@ -38,6 +38,7 @@ font-family: 'Outfit', sans-serif;
     vertical-align: middle;
     color: black;
     margin-right: 20px;
+    margin-top: 5px;
 }
 .overlay {
   height: 100%;
@@ -112,14 +113,14 @@ font-family: 'Outfit', sans-serif;
     margin: auto;
 }*/
 .img1{
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     margin: 140px auto 0 auto;
     display: block;
     border-radius: 70%;
     z-index: inherit;
     animation-name: right;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
@@ -155,7 +156,7 @@ font-family: 'Outfit', sans-serif;
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -169,7 +170,7 @@ font-family: 'Outfit', sans-serif;
 #a-projects{
     background-color: white;
     width: 100%;
-    height: 930px;
+    height: 950px;
     margin: auto;
     text-align: center;
 }
@@ -223,7 +224,8 @@ font-family: 'Outfit', sans-serif;
     color: white;
 }
 .svg-link{
-    padding-right: 10px;
+    padding-right: 13px;
+    margin-top: 15px;
 }
 svg:hover{
     cursor: pointer;
