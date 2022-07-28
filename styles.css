@@ -138,8 +138,8 @@ font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 .about-header, .projects-header, .contact-header{
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     color: #5F9EA0;
     margin: 0px 0 20px 0;
     padding-top: 20px;
@@ -212,14 +212,14 @@ font-family: 'Outfit', sans-serif;
 }
 .top{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 3px;
     color: white;
 }
 .detail{
     margin-bottom: 3px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 24px;
     color: white;
 }
 .svg-link{
