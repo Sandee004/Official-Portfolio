@@ -155,7 +155,7 @@ font-family: 'Outfit', sans-serif;
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -177,7 +177,7 @@ font-family: 'Outfit', sans-serif;
     width: 75%;
     height: 250px;
     border: 1px solid black;
-    margin: auto auto 25px auto;
+    margin: auto auto 30px auto;
     text-align: center;
     background-color: #5F9EA0;
     border-radius: 12px;
@@ -187,30 +187,18 @@ font-family: 'Outfit', sans-serif;
     background-color: #A0615F;
 }
 .project-name{
-
     font-weight: 600;
-
     color: black;
-
     font-size: 3em;
-
     margin: 48px 3px 0 3px;
-
 }
 .view-button{
-
     padding: 10px 14px;
-
     background-color: #FFB739;
-
     border: 2px solid #FFB739;
-
     font-weight: 400;
-
     font-size: 16px;
-
     margin-top: 22px;
-
 }
 .contact{
     background-color: transparent;
