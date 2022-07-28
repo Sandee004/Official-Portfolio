@@ -115,6 +115,7 @@ font-family: 'Outfit', sans-serif;
     width: 350px;
     height: 350px;
     margin: 100px auto 0 auto;
+    display: block;
     border-radius: 70%;
     z-index: inherit;
     animation-name: right;
@@ -128,40 +129,7 @@ font-family: 'Outfit', sans-serif;
         transform: scaleX(-1);
     }
 }
-/*
-.img1 {
-    animation-name: right;
-    animation-duration: 6s;
-    float: left;
-}
-.img2{
-    animation-name: left;
-    float: right;
-    animation-duration: 2s;
-}
-@keyframes right{
-    50%{
-        transform: translateX(170%)
-        
-    }
-}
-@keyframes left{
-    50%{
-        transform: translateX(-170%);
-    }
-}*/
-/*
-@keyframes movement{
-    25%{
-        transform: translateX(100%) translateY(55%);
-    }
-    50%{
-        transform: translateX(245%) translateY(20%);
-    }
-    70%{
-        transform: translateX(260%) translateY(-80%);
-    }
-}*/
+
 .about{
     background-color: #F4F5FA;
     width: 100%;
