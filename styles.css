@@ -1,27 +1,15 @@
 *{
-
     margin: 0;
-
 }
-
 @media only screen and (max-width: 1000px){
-
 body{
-
     margin: auto;
-
     background-color: #395e60;
-
     height: contain;
-
     border: 0.5px solid black;
-
     font-family: 'Open Sans', sans-serif;
-
 font-family: 'Outfit', sans-serif;
-
 }
-
 .lappy{
     display: none;
 }
@@ -29,47 +17,27 @@ font-family: 'Outfit', sans-serif;
     display: block;
 }
 .nav-bar{
-
     background-color: hsl(182%, 65%, 50%);
-
     border-bottom: .5px solid black;
-
     margin-bottom: 85px;
-
     width: 100%;
-
     height: 14px 0px;
-
     margin-top: 8px;
-
     top: 0;
-
 }
 .h2{
-
     color: #FFB739;
-
     margin-top: 5px;
-
     margin-left: 10px;
-
     font-size: 25px;
-
 }
 .menu-svg{
-
     float: right;
-
     width: 28px;
-
     height: 28px;
-
     vertical-align: middle;
-
     color: black;
-
     margin-right: 10px;
-
 }
 .overlay {
   height: 100%;
@@ -98,80 +66,106 @@ font-family: 'Outfit', sans-serif;
   transition: 0.3s;
 }
 .overlay-link-1{
-
     text-align: center;
-
     margin-top: 51px;
-
 }
 .overlay-link{
-
     text-align: center;
-
     margin-bottom: 5px;
-
 }
 .overlay a:hover, .overlay a:focus {
-
   background-color: #A0615F;
-
 }
 .overlay .closebtn {
-
   position: absolute;
-
   top: 20px;
-
   right: 45px;
-
   font-size: 30px;
-
 }
-
 .intro{
-
     line-height: 42px;
-
     font-size: 2.6em;
-
     margin-left: 10px;
-
 }
-
 .greeting{
     font-weight: 400;
     color: #FFB739;
 }
-
 .name{
-
     color: white;
-
     font-weight: 600;
     display: inline;
 }
-
 .intro-about{
-
     font-weight: 350;
-
     color: white;
-
     font-size: 20px;
-
-    margin: 5px 10px 20px 10px;
-
+    margin: 5px 10px 5px 10px;
 }
+#homes{
+    height: 600px;
+}
+/*.image{
+    background-color: transparent;
+    width: 100%;
+    height: 650px;
+    margin: auto;
+}*/
 .img1{
-    width: 360px;
-    height: 752px;
-    margin: 15px auto;
-    display: block;
+    width: 350px;
+    height: 350px;
+    margin: 100px auto 0 auto;
+    border-radius: 70%;
+    z-index: inherit;
+    animation-name: right;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
 }
+@keyframes right{
+    50% {
+        opacity: 0.2;
+        transform: scaleX(-1);
+    }
+}
+/*
+.img1 {
+    animation-name: right;
+    animation-duration: 6s;
+    float: left;
+}
+.img2{
+    animation-name: left;
+    float: right;
+    animation-duration: 2s;
+}
+@keyframes right{
+    50%{
+        transform: translateX(170%)
+        
+    }
+}
+@keyframes left{
+    50%{
+        transform: translateX(-170%);
+    }
+}*/
+/*
+@keyframes movement{
+    25%{
+        transform: translateX(100%) translateY(55%);
+    }
+    50%{
+        transform: translateX(245%) translateY(20%);
+    }
+    70%{
+        transform: translateX(260%) translateY(-80%);
+    }
+}*/
 .about{
     background-color: #F4F5FA;
     width: 100%;
-    height: 500px;
+    height: contain;
     margin: auto;
     text-align: center;
 }
@@ -184,42 +178,26 @@ font-family: 'Outfit', sans-serif;
     padding-bottom: 10px;
 }
 .about-info{
-
     font-size: 20px;
-
     line-height: 25px;
-
     margin: 0 10px 12px 10px;
-
 }
-
 .resume-button{
-
     padding: 10px;
-
     background-color: #FFB739;
-
     border: 2px solid #FFB739;
-
     font-weight: 400;
-
     font-size: 16px;
     margin-top: 10px;
-
+    margin-bottom: 20px;
 }
-
 .resume-button:hover{
-
     background-color: #A0615F;
-
     border: 2px solid #A0615F;
-
     cursor: pointer;
-
-    transform: scale(1.2);
+    transform: scale(0.8);
 
 }
-
 #a-projects{
     background-color: white;
     width: 100%;
@@ -229,7 +207,7 @@ font-family: 'Outfit', sans-serif;
 }
 #a-project-box, #a-project-box-2, #a-project-box-3{
     width: 75%;
-    height: 220px;
+    height: 250px;
     border: 1px solid black;
     margin: auto auto 25px auto;
     text-align: center;
@@ -266,60 +244,35 @@ font-family: 'Outfit', sans-serif;
     margin-top: 22px;
 
 }
-
 .contact{
-
     background-color: transparent;
-
     width: 100%;
-
     height: 250px;
-
     margin: auto;
-
     text-align: center;
-
 }
-
 .contact-header{
-
     color: #FFB739;
-
 }
-
 .top{
-
     font-weight: bold;
-
     font-size: 20px;
-
     margin-bottom: 3px;
     color: white;
-
 }
-
 .detail{
-
     margin-bottom: 3px;
     font-weight: 300;
     font-size: 15px;
     color: white;
-
 }
-
 .svg-link{
-
     padding-right: 10px;
-
 }
-
 svg:hover{
-
     cursor: pointer;
-
 }
 }
-
 @media only screen and (min-width: 1001px){
 
     body{
