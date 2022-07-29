@@ -33,8 +33,8 @@ font-family: 'Outfit', sans-serif;
 }
 .menu-svg{
     float: right;
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
     color: black;
     margin-right: 10px;
@@ -59,7 +59,7 @@ font-family: 'Outfit', sans-serif;
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 2em;
   background-color: #5F9EA0;
   color: black;
   display: block;
