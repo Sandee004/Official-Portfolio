@@ -33,12 +33,11 @@ font-family: 'Outfit', sans-serif;
 }
 .menu-svg{
     float: right;
-    width: 38px;
-    height: 38px;
+    width: 28px;
+    height: 28px;
     vertical-align: middle;
     color: black;
-    margin-right: 20px;
-    margin-top: 5px;
+    margin-right: 10px;
 }
 .overlay {
   height: 100%;
@@ -104,7 +103,7 @@ font-family: 'Outfit', sans-serif;
     margin: 5px 10px 5px 10px;
 }
 #homes{
-    height: 1000px;
+    height: 600px;
 }
 /*.image{
     background-color: transparent;
@@ -113,14 +112,13 @@ font-family: 'Outfit', sans-serif;
     margin: auto;
 }*/
 .img1{
-    width: 500px;
-    height: 500px;
-    margin: 140px auto 0 auto;
-    display: block;
+    width: 350px;
+    height: 350px;
+    margin: 100px auto 0 auto;
     border-radius: 70%;
     z-index: inherit;
     animation-name: right;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
@@ -130,7 +128,40 @@ font-family: 'Outfit', sans-serif;
         transform: scaleX(-1);
     }
 }
-
+/*
+.img1 {
+    animation-name: right;
+    animation-duration: 6s;
+    float: left;
+}
+.img2{
+    animation-name: left;
+    float: right;
+    animation-duration: 2s;
+}
+@keyframes right{
+    50%{
+        transform: translateX(170%)
+        
+    }
+}
+@keyframes left{
+    50%{
+        transform: translateX(-170%);
+    }
+}*/
+/*
+@keyframes movement{
+    25%{
+        transform: translateX(100%) translateY(55%);
+    }
+    50%{
+        transform: translateX(245%) translateY(20%);
+    }
+    70%{
+        transform: translateX(260%) translateY(-80%);
+    }
+}*/
 .about{
     background-color: #F4F5FA;
     width: 100%;
@@ -139,8 +170,8 @@ font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 .about-header, .projects-header, .contact-header{
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 28px;
+    font-weight: 600;
     color: #5F9EA0;
     margin: 0px 0 20px 0;
     padding-top: 20px;
@@ -156,7 +187,7 @@ font-family: 'Outfit', sans-serif;
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -170,7 +201,7 @@ font-family: 'Outfit', sans-serif;
 #a-projects{
     background-color: white;
     width: 100%;
-    height: 950px;
+    height: 900px;
     margin: auto;
     text-align: center;
 }
@@ -178,7 +209,7 @@ font-family: 'Outfit', sans-serif;
     width: 75%;
     height: 250px;
     border: 1px solid black;
-    margin: auto auto 30px auto;
+    margin: auto auto 25px auto;
     text-align: center;
     background-color: #5F9EA0;
     border-radius: 12px;
@@ -188,23 +219,35 @@ font-family: 'Outfit', sans-serif;
     background-color: #A0615F;
 }
 .project-name{
+
     font-weight: 600;
+
     color: black;
+
     font-size: 3em;
+
     margin: 48px 3px 0 3px;
+
 }
 .view-button{
+
     padding: 10px 14px;
+
     background-color: #FFB739;
+
     border: 2px solid #FFB739;
+
     font-weight: 400;
-    font-size: 20px;
+
+    font-size: 16px;
+
     margin-top: 22px;
+
 }
 .contact{
     background-color: transparent;
     width: 100%;
-    height: 350px;
+    height: 250px;
     margin: auto;
     text-align: center;
 }
@@ -213,18 +256,18 @@ font-family: 'Outfit', sans-serif;
 }
 .top{
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 20px;
     margin-bottom: 3px;
     color: white;
 }
 .detail{
     margin-bottom: 3px;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 15px;
     color: white;
 }
 .svg-link{
-    padding-right: 13px;
+    padding-right: 10px;
 }
 svg:hover{
     cursor: pointer;
