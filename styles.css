@@ -225,7 +225,6 @@ font-family: 'Outfit', sans-serif;
 }
 .svg-link{
     padding-right: 13px;
-    margin-top: 15px;
 }
 svg:hover{
     cursor: pointer;
