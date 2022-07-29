@@ -103,7 +103,7 @@ font-family: 'Outfit', sans-serif;
     margin: 5px 10px 5px 10px;
 }
 #homes{
-    height: 600px;
+    height: 800px;
 }
 /*.image{
     background-color: transparent;
@@ -257,7 +257,7 @@ font-family: 'Outfit', sans-serif;
 }
 .top{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15em;
     margin-bottom: 3px;
     color: white;
 }
