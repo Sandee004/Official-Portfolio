@@ -201,7 +201,7 @@ font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 .contact-header{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #FFB739;
 }
 .top{
@@ -217,12 +217,17 @@ font-family: 'Outfit', sans-serif;
     color: white;
 }
 .svg-link{
-    padding-right: 10px;
+    padding-right: 15px;
+    margin-tip: 10px;
 }
 svg:hover{
     cursor: pointer;
 }
 }
+
+
+
+
 @media only screen and (min-width: 1001px){
 
     body{
