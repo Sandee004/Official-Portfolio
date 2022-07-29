@@ -112,8 +112,9 @@ font-family: 'Outfit', sans-serif;
     margin: auto;
 }*/
 .img1{
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
+    display: block;
     margin: 100px auto 0 auto;
     border-radius: 70%;
     z-index: inherit;
