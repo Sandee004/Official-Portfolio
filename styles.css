@@ -223,6 +223,9 @@ font-family: 'Outfit', sans-serif;
 svg:hover{
     cursor: pointer;
 }
+.mail{
+    text-decoration: none;
+}
 }
 
 
