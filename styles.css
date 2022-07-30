@@ -225,6 +225,7 @@ svg:hover{
 }
 .mail{
     text-decoration: none;
+    color: white;
 }
 }
 
@@ -459,4 +460,7 @@ svg:hover{
     .svg-link:hover{
         cursor: pointer;
     }
+    .mail{
+        text-decoration: none;
+        color: white;
 }
