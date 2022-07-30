@@ -226,6 +226,7 @@ svg:hover{
 .mail{
     text-decoration: none;
     color: white;
+    font-style: italic;
 }
 }
 
@@ -463,4 +464,5 @@ svg:hover{
     .mail{
         text-decoration: none;
         color: white;
+        font-style: italic;
 }
