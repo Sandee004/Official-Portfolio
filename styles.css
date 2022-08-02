@@ -24,6 +24,8 @@ font-family: 'Outfit', sans-serif;
     height: 14px 0px;
     margin-top: 8px;
     top: 0;
+    position: sticky;
+    z-index: 100;
 }
 .h2{
     color: #FFB739;
