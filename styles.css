@@ -204,21 +204,22 @@ font-family: 'Outfit', sans-serif;
 .contact-header{
     margin-bottom: 30px;
     color: #FFB739;
+    font-size: 2.9em;
 }
 .top{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.3em;
     margin-bottom: 3px;
     color: white;
 }
 .detail{
     margin-bottom: 8px;
     font-weight: 300;
-    font-size: 1.7em;
+    font-size: 2em;
     color: white;
 }
 .svg-link{
-    padding-right: 15px;
+    padding-right: 18px;
     margin-top: 10px;
 }
 svg:hover{
