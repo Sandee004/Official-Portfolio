@@ -209,7 +209,7 @@ font-family: 'Outfit', sans-serif;
 }
 .top{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 6px;
     color: white;
 }
@@ -220,9 +220,10 @@ font-family: 'Outfit', sans-serif;
     color: white;
 }
 .svg-link{
-    padding-right: 15px;
+    padding-right: 18px;
     width: 45px;
     height: 45px;
+    padding-bottom: 8px;
 }
 svg:hover{
     cursor: pointer;
