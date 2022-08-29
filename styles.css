@@ -17,7 +17,7 @@ font-family: 'Outfit', sans-serif;
     display: block;
 }
 .nav-bar{
-    background-color: #395e60;
+    background-color: #395e60/*hsl(182%, 65%, 50%)*/;
     border-bottom: .5px solid black;
     margin-bottom: 85px;
     width: 100%;
@@ -27,20 +27,25 @@ font-family: 'Outfit', sans-serif;
     position: sticky;
     z-index: 100;
 }
+
+/*.nav-bar.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}*/
+
 .h2{
     color: #FFB739;
     margin-top: 5px;
     margin-left: 10px;
-    font-size: 2.2em;
+    font-size: 30px;
 }
 .menu-svg{
     float: right;
-    width: 62px;
-    height: 62px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     color: black;
-    margin-right: 20px;
-    margin-top: 5px;
+    margin-right: 10px;
 }
 .overlay {
   height: 100%;
@@ -62,11 +67,10 @@ font-family: 'Outfit', sans-serif;
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 2.3em;
+  font-size: 21px;
   background-color: #5F9EA0;
   color: black;
   display: block;
-  font-weight: 500;
   transition: 0.3s;
 }
 .overlay-link-1{
@@ -84,7 +88,7 @@ font-family: 'Outfit', sans-serif;
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 50px;
+  font-size: 30px;
 }
 .intro{
     line-height: 42px;
@@ -97,24 +101,23 @@ font-family: 'Outfit', sans-serif;
 }
 .name{
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     display: inline;
 }
 .intro-about{
     font-weight: 350;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     margin: 5px 10px 5px 10px;
 }
 #homes{
     height: 800px;
 }
 .img1{
-    width: 500px;
-    height: 520px;
+    width: 350px;
+    height: 450px;
     display: block;
     margin: 100px auto 0 auto;
-    border-radius: 70%;
     z-index: inherit;
     animation-name: right;
     animation-duration: 3s;
@@ -135,7 +138,7 @@ font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 .about-header, .projects-header, .contact-header{
-    font-size: 3.1em;
+    font-size: 28px;
     font-weight: 600;
     color: #5F9EA0;
     margin: 0px 0 20px 0;
@@ -145,43 +148,45 @@ font-family: 'Outfit', sans-serif;
 .about-info{
     font-size: 20px;
     line-height: 25px;
-    margin: 0 12px 12px 12px;
+    margin: 0 12px 15px 12px;
 }
 .resume-button{
-    padding: 13px;
+    padding: 10px;
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 2.2em;
+    font-size: 16px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .resume-button:hover{
-    background-color: #5F9EA0;
-    border: 2px solid #5F9EA0;
+    background-color: #A0615F;
+    border: 2px solid #A0615F;
     cursor: pointer;
+    transform: scale(0.8);
+
 }
 #a-projects{
     background-color: white;
     width: 100%;
-    height: 1400px;
+    height: contain;
     margin: auto;
     text-align: center;
 }
 #a-project-box, #a-project-box-2, #a-project-box-3, #a-project-box-4{
     width: 75%;
-    height: 255px;
+    height: 250px;
     border: 1px solid black;
-    margin: auto auto 35px auto;
+    margin: auto auto 25px auto;
     text-align: center;
     background-color: #5F9EA0;
     border-radius: 12px;
     transition: background-color 0.4s ease-out ;
 }
 .project-name{
-    font-weight: 600;
+    font-weight: 450;
     color: black;
-    font-size: 3.2em;
+    font-size: 3em;
     margin: 48px 3px 0 3px;
 }
 .view-button{
@@ -189,53 +194,38 @@ font-family: 'Outfit', sans-serif;
     background-color: #FFB739;
     border: 2px solid #FFB739;
     font-weight: 400;
-    font-size: 1.6em;
+    font-size: 20px;
     margin-top: 22px;
 }
 .contact{
     background-color: transparent;
     width: 100%;
-    height: 390px;
+    height: 250px;
     margin: auto;
     text-align: center;
 }
 .contact-header{
-    margin-bottom: 30px;
     color: #FFB739;
-    font-size: 3.1em;
 }
 .top{
     font-weight: bold;
-    font-size: 2.7em;
+    font-size: 20px;
     margin-bottom: 3px;
     color: white;
 }
 .detail{
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 15px;
     color: white;
 }
 .svg-link{
-    padding-right: 18px;
-    margin-top: 15px;
+    padding-right: 10px;
 }
 svg:hover{
     cursor: pointer;
 }
-.mail{
-    text-decoration: none;
-    color: white;
-    font-style: italic;
 }
-.mail:hover{
-    cursor: pointer;
-}
-}
-
-
-
-
 @media only screen and (min-width: 1001px){
 
     body{
@@ -251,14 +241,14 @@ svg:hover{
         display: block;
     }
     #home{
-    height: 80vh;
+    height: 40vh;
     }
     .nav-bar{
         background-color: #395e60;
         border-bottom: .5px solid black;
         margin-bottom: 85px;
         width: 100%;
-        height: 30px;
+        height: contain;
         margin-top: 8px;
         top: 0;
     }
@@ -266,13 +256,13 @@ svg:hover{
         color: #FFB739;
         margin-top: 5px;
         margin-left: 10px;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 600;
     }
     .menu-svg{
         float: right;
-        width: 28px;
-        height: 28px;
+        width: 32px;
+        height: 32px;
         vertical-align: middle;
         color: black;
         margin-right: 10px;
@@ -350,7 +340,6 @@ svg:hover{
         margin: auto 15px 10px 20px;
     }
     
-    
     .about{
         background-color: #F4F5FA;
         width: 100%;
@@ -396,15 +385,15 @@ svg:hover{
     #projects{
         background-color: white;
         width: 100%;
-        height: 700px;
+        height: contain;
         margin: auto;
         text-align: center;
     }
     #project-box, #project-box-2, #project-box-3, #project-box-4, #project-box-5{
         width: 450px;
         height: 275px;
-        display: inline-block;
-        margin: 0 10px 12px 3px;
+        display: flex table;
+        margin: 0 1px 12px 3px;
         text-align: center;
         background-color: #5F9EA0;
         border-radius: 12px;
@@ -464,12 +453,4 @@ svg:hover{
     .svg-link:hover{
         cursor: pointer;
     }
-    .mail{
-        text-decoration: none;
-        color: white;
-        font-style: italic;
-    }
-    .mail:hover{
-    cursor: pointer;
-}
 }
