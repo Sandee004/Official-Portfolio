@@ -41,8 +41,8 @@ font-family: 'Outfit', sans-serif;
 }
 .menu-svg{
     float: right;
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
     vertical-align: middle;
     color: black;
     margin-right: 15px;
@@ -397,7 +397,8 @@ svg:hover{
     #project-box, #project-box-2, #project-box-3, #project-box-4, #project-box-5{
         width: 450px;
         height: 275px;
-        display: inline-block;
+        display: inline;
+        overflow-x: auto;
         margin: 0 1px 12px 3px;
         text-align: center;
         background-color: #5F9EA0;
