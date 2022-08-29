@@ -138,7 +138,7 @@ font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 .about-header, .projects-header, .contact-header{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: #5F9EA0;
     margin: 0px 0 20px 0;
@@ -200,7 +200,7 @@ font-family: 'Outfit', sans-serif;
 .contact{
     background-color: transparent;
     width: 100%;
-    height: 250px;
+    height: contain;
     margin: auto;
     text-align: center;
 }
@@ -209,20 +209,20 @@ font-family: 'Outfit', sans-serif;
 }
 .top{
     font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 3px;
+    font-size: 32px;
+    margin-bottom: 6px;
     color: white;
 }
 .detail{
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 29px;
     color: white;
 }
 .svg-link{
     padding-right: 15px;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
 svg:hover{
     cursor: pointer;
