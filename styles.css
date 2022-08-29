@@ -117,6 +117,7 @@ font-family: 'Outfit', sans-serif;
     width: 450px;
     height: 550px;
     display: block;
+    border-radius: 50%;
     margin: 100px auto 0 auto;
     z-index: inherit;
     animation-name: right;
