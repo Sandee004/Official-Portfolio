@@ -246,7 +246,7 @@ svg:hover{
         display: block;
     }
     #home{
-    height: 40vh;
+        height: 60vh;
     }
     .nav-bar{
         background-color: #395e60;
@@ -339,8 +339,8 @@ svg:hover{
         text-align: center;
     }
     .img1{
-        width: 200px;
-        height: 370px;
+        width: 290px;
+        height: 460px;
         float: left;
         margin: auto 15px 10px 20px;
     }
@@ -385,6 +385,50 @@ svg:hover{
         cursor: pointer;
         transform: scale(0.9);
     }
+    .skill{
+        margin-left: 400px;
+        margin-top: 10px;
+    }
+    .about svg{
+        width: 65px;
+        height: 65px;
+        margin-right: 12px;
+    }
+        
+    .content_img {
+        position: relative;
+        width: contain;
+        height: contain;
+        float: left;
+        margin-right: 20px;
+    }
+    
+        
+    .content_img div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: black;
+        color: white;
+        margin-bottom: 5px;
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: visibility 0s, opacity 0.5s linear;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+    
+       
+    .content_img:hover {
+        cursor: pointer;
+    }
+    
+    .content_img:hover div {
+        width: 50px;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.7;
+    }
     
     
     #projects{
@@ -394,12 +438,14 @@ svg:hover{
         margin: auto;
         text-align: center;
     }
-    #project-box, #project-box-2, #project-box-3, #project-box-4, #project-box-5{
+    table{
+        margin: auto;
+        text-align: center;
+    }
+    #project-box, #project-box-2, #project-box-3, #project-box-4, #project-box-5, #project-box-6{
         width: 450px;
         height: 275px;
-        display: inline;
-        overflow-x: auto;
-        margin: 0 1px 12px 3px;
+        margin: 0px 5px 12px 3px;
         text-align: center;
         background-color: #5F9EA0;
         border-radius: 12px;
@@ -413,6 +459,7 @@ svg:hover{
         color: black;
         font-size: 3em;
         margin: 48px 3px 0 3px;
+        padding-top: 35px;
     }
     .view-button{
         padding: 10px 14px;
@@ -422,6 +469,7 @@ svg:hover{
         font-size: 20px;
         margin-top: 22px;
         margin-bottom: 15px;
+       
     }
     .view-button:hover{
         cursor: pointer;
