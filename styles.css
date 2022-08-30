@@ -214,11 +214,17 @@ font-family: 'Outfit', sans-serif;
     margin-bottom: 6px;
     color: white;
 }
-.detail{
+.detail, .email{
     margin-bottom: 8px;
     font-weight: 300;
     font-size: 29px;
     color: white;
+}
+.email a {
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
 }
 .svg-link{
     padding-right: 18px;
@@ -495,11 +501,17 @@ svg:hover{
         margin-bottom: 3px;
         color: white;
     }
-    .detail{
+    .detail, .email{
         margin-bottom: 3px;
         font-weight: 300;
         color: white;
         font-size: 20px;
+    }
+    .email a{
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 8px;
     }
     .svg-link{
         padding-right: 10px;
