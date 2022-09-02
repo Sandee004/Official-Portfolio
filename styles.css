@@ -4,7 +4,7 @@
 @media only screen and (max-width: 1000px){
 body{
     margin: auto;
-    background-color: #395e60;
+    background-color: #293462; /*#293462;*/
     height: contain;
     border: 0.5px solid black;
     font-family: 'Open Sans', sans-serif;
@@ -17,12 +17,12 @@ font-family: 'Outfit', sans-serif;
     display: block;
 }
 .nav-bar{
-    background-color: #395e60/*hsl(182%, 65%, 50%)*/;
+    background-color: #1CD6CE;/* #293462 hsl(182%, 65%, 50%)*/;
     border-bottom: .5px solid black;
     margin-bottom: 85px;
     width: 100%;
     height: contain;
-    margin-top: 8px;
+    margin-top: 0px;
     top: 0;
     position: sticky;
     z-index: 100;
@@ -34,7 +34,8 @@ font-family: 'Outfit', sans-serif;
 }*/
 
 .h2{
-    color: #FFB739;
+    color: black;
+    font-weight: 600;
     margin-top: 5px;
     margin-left: 10px;
     font-size: 30px;
@@ -54,7 +55,7 @@ font-family: 'Outfit', sans-serif;
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: #5F9EA0;
+  background-color: #293462;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -68,8 +69,8 @@ font-family: 'Outfit', sans-serif;
   padding: 8px;
   text-decoration: none;
   font-size: 30px;
-  background-color: #5F9EA0;
-  color: black;
+  background-color: #293462;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -82,7 +83,9 @@ font-family: 'Outfit', sans-serif;
     margin-bottom: 6px;
 }
 .overlay a:hover, .overlay a:focus {
-  background-color: #A0615F;
+  background-color: #1CD6CE;
+  color: black;
+  font-weight: 500;
 }
 .overlay .closebtn {
   position: absolute;
@@ -97,7 +100,7 @@ font-family: 'Outfit', sans-serif;
 }
 .greeting{
     font-weight: 400;
-    color: #FFB739;
+    color: #1CD6CE /*#FFB739*/;
 }
 .name{
     color: white;
@@ -141,7 +144,7 @@ font-family: 'Outfit', sans-serif;
 .about-header, .projects-header, .contact-header{
     font-size: 40px;
     font-weight: 600;
-    color: #5F9EA0;
+    color: #1CD6CE;
     margin: 0px 0 20px 0;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -161,8 +164,8 @@ font-family: 'Outfit', sans-serif;
     margin-bottom: 20px;
 }
 .resume-button:hover{
-    background-color: #A0615F;
-    border: 2px solid #A0615F;
+    background-color: #1CD6CE;
+    border: 2px solid #1CD6CE;
     cursor: pointer;
     transform: scale(0.8);
 
@@ -180,20 +183,20 @@ font-family: 'Outfit', sans-serif;
     border: 1px solid black;
     margin: auto auto 25px auto;
     text-align: center;
-    background-color: #5F9EA0;
+    background-color: #293462;/* #5F9EA0;*/
     border-radius: 12px;
     transition: background-color 0.4s ease-out ;
 }
 .project-name{
     font-weight: 450;
-    color: black;
+    color: white;
     font-size: 3em;
     margin: 48px 3px 0 3px;
 }
 .view-button{
     padding: 10px 14px;
     background-color: #FFB739;
-    border: 2px solid #FFB739;
+    border: 2px solid #FFB739;/* #FFB739;*/
     font-weight: 400;
     font-size: 20px;
     margin-top: 22px;
@@ -241,7 +244,7 @@ svg:hover{
 
     body{
         margin: auto;
-        background-color: #395e60;
+        background-color: #293462;
         font-family: 'Open Sans', sans-serif;
         font-family: 'Outfit', sans-serif;
     }
@@ -255,7 +258,7 @@ svg:hover{
         height: 60vh;
     }
     .nav-bar{
-        background-color: #395e60;
+        background-color: #293462;
         border-bottom: .5px solid black;
         margin-bottom: 85px;
         width: 100%;
@@ -264,7 +267,7 @@ svg:hover{
         top: 0;
     }
     .h2{
-        color: #FFB739;
+        color: #1CD6CE;
         margin-top: 5px;
         margin-left: 10px;
         font-size: 35px;
@@ -275,7 +278,7 @@ svg:hover{
         width: 32px;
         height: 32px;
         vertical-align: middle;
-        color: black;
+        color: white;
         margin-right: 10px;
     }
     .overlay {
@@ -285,7 +288,7 @@ svg:hover{
       z-index: 1;
       left: 0;
       top: 0;
-      background-color: #5F9EA0;
+      background-color: #293462;
       overflow-x: hidden;
       transition: 0.5s;
     }
@@ -299,7 +302,7 @@ svg:hover{
       padding: 8px;
       text-decoration: none;
       font-size: 22px;
-      background-color: #5F9EA0;
+      background-color: #293462;
       color: black;
       display: block;
       transition: 0.3s;
@@ -313,7 +316,8 @@ svg:hover{
         margin-bottom: 5px;
     }
     .overlay a:hover, .overlay a:focus {
-      background-color: #A0615F;
+      background-color: #1CD6CE;
+      font-weight: 500;
     }
     .overlay .closebtn {
       position: absolute;
@@ -330,7 +334,7 @@ svg:hover{
     }
     .greeting{
         font-weight: 400;
-        color: #FFB739;
+        color: #1CD6CE;
         text-align: center;
     }
     .name{
@@ -361,7 +365,7 @@ svg:hover{
     .about-header, .projects-header, .contact-header{
         font-size: 28px;
         font-weight: 600;
-        color: #5F9EA0;
+        color: #1CD6CE;
         margin: 0px 0 20px 0;
         padding-top: 20px;
         padding-bottom: 10px;
@@ -386,8 +390,8 @@ svg:hover{
         margin: 16px 0 30px 0;
     }
     .resume-button:hover{
-        background-color: #A0615F;
-        border: 2px solid #A0615F;
+        background-color: #1CD6CE;
+        border: 2px solid #1CD6CE;
         cursor: pointer;
         transform: scale(0.9);
     }
@@ -453,16 +457,16 @@ svg:hover{
         height: 275px;
         margin: 0px 5px 12px 3px;
         text-align: center;
-        background-color: #5F9EA0;
+        background-color: #293462;
         border-radius: 12px;
-        transition: background-color 0.4s ease-out;
+        transition: background-color 0.6s ease-out;
     }
     #project-box:hover, #project-box-2:hover, #project-box-3:hover, #project-box-4:hover, #project-box-5:hover{
-        background-color: #A0615F;
+        background-color: #1CD6CE;
     }
     .project-name{
         font-weight: 600;
-        color: black;
+        color: white;
         font-size: 3em;
         margin: 35px 10px 0 10px;
         padding-top: 35px;
