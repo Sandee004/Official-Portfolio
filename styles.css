@@ -42,9 +42,10 @@ font-family: 'Outfit', sans-serif;
 }
 .menu-svg{
     float: right;
-    width: 48px;
-    height: 48px;
+    width: 53px;
+    height: 53px;
     vertical-align: middle;
+    margin-top: 3px;
     color: black;
     margin-right: 15px;
 }
